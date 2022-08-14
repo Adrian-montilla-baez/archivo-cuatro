@@ -1,0 +1,32 @@
+.container-card__about{
+    box-shadow: 0px 2px 5px 2px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    padding: 20px;
+}
+.title-font{
+    font-size: 1.5em;
+    color: #222325;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d1d4dc;
+    margin-bottom: 20px;
+}
+.contenedor-wer p{
+    color: #222325;
+}
+.margin-btn{
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+}
+@media (max-width:900px){
+    .container-card__about{
+        flex-direction: column;
+    }
+    .contenedor-img, .contenedor-wer
+    {
+        width: 100%;
+    }
+    .contenedor-img{
+        margin-bottom: 20px;
+    }
+}
